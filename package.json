@@ -1,0 +1,33 @@
+{
+  "name": "benchling-notebook-parser",
+  "version": "0.0.1",
+  "description": "Parse notebook entries from benchling html export zip",
+  "homepage": "http://github.com/realvegancheese/benchling-notebook-parser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/realvegancheese/benchling-notebook-parser"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "decompress": "^4.2.0",
+    "fs-extra": "^5.0.0",
+    "glob": "^7.1.2",
+    "glob-watcher": "^5.0.1",
+    "minimist": "^1.2.0",
+    "tmp": "0.0.33"
+  },
+  "author": {
+    "name": "Marc Juul",
+    "email": "npm@juul.io"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/realvegancheese/benchling-notebook-parser/issues"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/tape tests/*.js"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
